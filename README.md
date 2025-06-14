@@ -56,6 +56,15 @@ Here's how to get the core APM framework up and running for your project:
 *   See the `rules/README.md` and the [Cursor Integration Guide](docs/04_Cursor_Integration_Guide.md) for easy setup instructions.
 *   **Concept for Other IDEs:** The principle of using IDE-specific, persistent, scoped instructions could potentially be adapted for other AI-integrated IDEs that offer similar rule-like or custom instruction features like Windsurf, Roo etc. If you explore this for another platform and find a viable approach, please consider sharing your insights by opening an issue or a Pull Request on the APM GitHub repository!
 
+## Using APM with Roocode
+
+For Roo Code users, you can integrate APM by following these steps:
+
+1. **Setup:** Install [Roo Code VS Code extension](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline).
+2. **Add APM Assets:** Place the `.roo`, `prompts`, and `.roomodes` files and directories into your project's workspace root.
+3. **Reload Editor:** Reload your editor (e.g., VSCode, Windsurf) to activate the new modes and rules.
+
+
 ## Dive Deeper
 
 This README gives you the essentials. For a more in-depth understanding of the APM workflow, advanced features, customization, and the technical details behind each component:
