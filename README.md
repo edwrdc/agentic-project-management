@@ -63,6 +63,13 @@ For Roo Code users, you can integrate APM by following these steps:
 1. **Setup:** Install [Roo Code VS Code extension](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline).
 2. **Add APM Assets:** Place the `.roo`, `prompts`, and `.roomodes` files and directories into your project's workspace root.
 3. **Reload Editor:** Reload your editor (e.g., VSCode, Windsurf) to activate the new modes and rules.
+4. **Initialize the Project:**
+    * Select the `APM Init Agent` mode in Roo Code.
+    * The agent will start an interactive session, asking you questions about your project's goals, technologies, and scope.
+    * Based on your answers, it will automatically create the initial project artifacts: `Implementation_Plan.md`, `Memory_Bank/`, and the necessary handover files.
+5. **Begin Project Management:**
+    * Once initialization is complete, the `Init Agent` will automatically start the `Manager Agent` and hand over control.
+    * You can now begin working with the `Manager Agent` to flesh out the plan and assign tasks.
 
 
 ## Dive Deeper
